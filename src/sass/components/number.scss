@@ -1,0 +1,63 @@
+.number{
+  height: 467px;
+  padding-top: 54px;
+  background-repeat: no-repeat;
+  color:$white-color;
+background: url(./../images/number/stars.png), url(./../images/number/chart.png) 50% 40% no-repeat,  radial-gradient(0.03% 0.03% at 50% 50%, #747474 0%, #1E3C72 1%, #2A5298 100%);
+background-size: auto, auto, cover;
+text-align: center;
+}
+.number-info{
+
+  h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 167%;
+    margin-bottom: 56px;
+  }
+
+  .procent{
+    margin-top: 88px;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 167%;
+    display: inline-block;
+    position: relative;
+  }
+  .procent:before,
+  .procent:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+.procent:before {
+  right: 200%;
+  left: -1100%;
+}
+
+.procent:after {
+  left: 200%;
+  right: -1100%;
+}
+.input-number{
+  text-align: center;
+  color: $white-color;
+  font-size:24px ;
+  font-weight: 550;
+  line-height: 40px;
+  width: 475px;
+  height: 55px;
+  border-radius: 80px;
+  margin-top:34px;
+  background: transparent;
+  border:0.5px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: $white-color;
+ }
+ input[type="text"]::-moz-placeholder {
+  color: $white-color;}
+}

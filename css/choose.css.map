@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC,EAAE,CAAA;EACd,UAAU,EAAE,MAAM;CAEnB;;AACD,AAAA,YAAY,CAAA;EACV,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "../src/sass/components/choose.scss"
+    ],
+    "names": [],
+    "file": "choose.css"
+}

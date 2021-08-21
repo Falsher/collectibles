@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC,EAAE,AAAA,CACd,UAAU,CAAE,MAAM,CAEnB,AACD,AAAA,YAAY,AAAA,CACV,OAAO,CAAE,IAAI,CACd",
+    "sources": [
+        "../src/sass/components/choose.scss"
+    ],
+    "names": [],
+    "file": "choose.min.css"
+}

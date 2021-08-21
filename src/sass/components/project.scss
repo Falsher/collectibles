@@ -1,0 +1,41 @@
+.project{
+  padding-top: 95px;
+  background-repeat: no-repeat;
+  background-image: url(./../images/project/project-robot.png);
+  background-position: 0% 80%;
+}
+.center-block{
+  background-color: $white-color;
+  background: url(./../images/project/one-robot-project.png) 0% 90% no-repeat, url(./../images/project/circles-project.png)95% 95% no-repeat;
+
+ margin-bottom: 108px;
+ margin-left: 260px;
+ margin-right: 260px;
+ box-shadow:5px 6px 43px rgba(30, 60, 114, 0.3);
+ border: 8px;
+ width: 920px;
+ height: 395px;
+padding-top:54px ;
+padding-left: 211px;
+padding-right: 98px;
+ h2{
+color:$hero-color;
+font-size: 36px;
+font-weight: 700;
+line-height: 133%;
+margin-bottom: 16px;
+ }
+ h3{
+  color:$hero-color;
+  font-size: 18px;
+font-weight: 550;
+line-height: 140%;
+margin-bottom: 22px;
+ }
+ .project-description{
+  color:#2A5298;
+  font-size: 14px;
+font-weight: 400;
+line-height: 23,1px;
+ }
+}

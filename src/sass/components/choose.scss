@@ -1,0 +1,38 @@
+.choose-block h2{
+  text-align: center;
+  color:$hero-color;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 133%;
+  text-transform: uppercase;
+}
+.choose-block{
+  margin-top:75px;
+}
+.list-choose{
+  display: flex;
+justify-content: space-around;
+}
+.slider-choose{
+  margin-top: 23px;
+  margin-left:165px ;
+  margin-right:165px ;
+  border-top:0.5px solid #CCCCCC;
+  transform: rotate(0.32deg) ;
+  height: 148px;
+  padding-top: 33px;
+}
+input[class="btnLeft"] {
+  background: url('./../images/chooseOne/buttonLeft.png') no-repeat top;
+  width: 21px;
+  height: 28px;
+  border: none;
+  margin-top:28px;
+}
+input[class="btnRight"] {
+  background: url('./../images/chooseOne/buttonRight.png') no-repeat top;
+  width: 21px;
+  height: 28px;
+  border: none;
+  margin-top: 28px;
+}

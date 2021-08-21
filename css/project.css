@@ -1,0 +1,10 @@
+.center-block {
+  margin-top: 95px;
+  margin-bottom: 108px;
+  margin-left: 260px;
+  margin-right: 260px;
+  -webkit-box-shadow: 5px 6px 43px rgba(30, 60, 114, 0.3);
+          box-shadow: 5px 6px 43px rgba(30, 60, 114, 0.3);
+  border: 8px;
+}
+/*# sourceMappingURL=project.css.map */
