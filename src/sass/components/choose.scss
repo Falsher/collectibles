@@ -15,8 +15,8 @@ justify-content: space-around;
 li>img{
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-li>img:hover,
-li>img:focus{
+li>.icon-robot:hover,
+li>.icon-robot:focus{
   box-shadow:(0px 4px 7px rgba(30, 60, 114, 0.4));
   width: 97px;
   height: 97px;
@@ -29,10 +29,19 @@ li>img:focus{
                     linear-gradient(120deg, rgba(255, 255, 0, 0) 36%, rgba(211, 211, 211, 0) 30%),
                     linear-gradient(300deg, $hero-color 36%, $hero-color 30%),
                     linear-gradient(210deg, rgba(0, 0, 0, 0) 36%, rgba(211, 211, 211, 0) 30%);
-  background-position: center center, left top, right top, left bottom, right bottom;
+
   background-origin: content-box, border-box, border-box, border-box, border-box;
-  background-clip: content-box, border-box, border-box, border-box, border-box;
+
 }
+}
+.coin{
+  margin-left: 55px;
+  margin-top: -25px;
+  width: 29px;
+}
+.coin2{
+  margin-left: 24px;
+  margin-top: -28px;
 }
 .slider-choose{
   margin-top: 23px;

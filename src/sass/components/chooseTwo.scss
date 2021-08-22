@@ -15,9 +15,11 @@
 justify-content: space-around;
 li>img{
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
 }
-li>img:hover,
-li>img:focus{
+li>.icon-robotTwo:hover,
+li>.icon-robotTwo:focus{
+
   box-shadow:(0px 4px 7px rgba(30, 60, 114, 0.4));
   width: 97px;
   height: 97px;
@@ -26,14 +28,31 @@ li>img:focus{
   background-size: 100% , 50% ;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
-                    linear-gradient(30deg, $hero-color 50%, $hero-color 30%),
+                    linear-gradient(30deg, #fff 50%, #fff 30%),
                     linear-gradient(120deg, rgba(255, 255, 0, 0) 36%, rgba(211, 211, 211, 0) 30%),
-                    linear-gradient(300deg, $hero-color 36%, $hero-color 30%),
-                    linear-gradient(210deg, rgba(0, 0, 0, 0) 36%, rgba(211, 211, 211, 0) 30%);
-  background-position: center center, left top, right top, left bottom, right bottom;
+                    linear-gradient(300deg, rgba(255, 255, 0, 0) 36%, rgba(255, 255, 0, 0)30%),
+                    linear-gradient(210deg, $hero-color  36%, $hero-color  30%);
+
   background-origin: content-box, border-box, border-box, border-box, border-box;
-  background-clip: content-box, border-box, border-box, border-box, border-box;
+
 }
+}
+.summ{
+  display: block;
+  margin-left: 20px;
+margin-top: -15px;
+position: relative;
+z-index: 9;
+  width:46px ;
+    height: 22px;
+    background:linear-gradient(270deg, #BB52C9 0%, #35519C 100%);
+    border-radius: 4px ;
+font-size: 12px;
+font-weight: 700;
+line-height: 133%;
+color: $white-color;
+padding: 4px 9px 7px 9px;
+
 }
 .slider-choose{
   margin-top: 23px;

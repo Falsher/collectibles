@@ -151,3 +151,17 @@ hr{
   width: 125px;
   margin-left: 11px;
 }
+.next{
+  mix-blend-mode: hard-light;
+  opacity: 0.8
+}
+.btn-learn:hover,
+.btn-kearn:focus{
+  background-color: $hero-color;
+  color: $white-color;
+}
+.btn-market:hover,
+.btn-market:focus{
+  background-color: $white-color;
+  color: $hero-color;
+}
