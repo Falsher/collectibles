@@ -1,0 +1,20 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="twitter" viewBox="0 0 38 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M37.506 5.102c-1.378 0.611-2.859 1.024-4.416 1.21 1.606-0.961 2.808-2.474 3.381-4.256-1.509 0.896-3.161 1.527-4.883 1.865-1.158-1.237-2.692-2.056-4.364-2.332s-3.388 0.009-4.882 0.809c-1.494 0.8-2.682 2.070-3.379 3.614s-0.866 3.275-0.479 4.925c-3.058-0.154-6.049-0.948-8.78-2.333s-5.14-3.328-7.071-5.703c-0.66 1.139-1.040 2.46-1.040 3.866-0.001 1.266 0.311 2.513 0.908 3.63s1.46 2.069 2.513 2.772c-1.221-0.039-2.415-0.369-3.483-0.962v0.099c-0 1.776 0.614 3.497 1.739 4.871s2.69 2.318 4.43 2.669c-1.133 0.306-2.32 0.352-3.473 0.132 0.491 1.528 1.448 2.864 2.736 3.822s2.844 1.488 4.448 1.517c-2.724 2.139-6.088 3.298-9.552 3.293-0.613 0-1.226-0.036-1.836-0.107 3.515 2.26 7.607 3.46 11.787 3.455 14.147 0 21.881-11.717 21.881-21.88 0-0.33-0.008-0.664-0.023-0.994 1.504-1.088 2.803-2.435 3.835-3.978l0.003-0.005z"></path>
+</symbol>
+<symbol id="message" viewBox="0 0 33 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M19.627 25.813c5.631 0 8.448 0 10.196-1.75 1.75-1.749 1.75-4.565 1.75-10.196s0-8.448-1.75-10.196c-1.749-1.75-4.565-1.75-10.196-1.75h-5.973c-5.631 0-8.448 0-10.196 1.75-1.75 1.749-1.75 4.565-1.75 10.196s0 8.448 1.75 10.196c0.975 0.977 2.282 1.408 4.223 1.598"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M16.64 13.867v0.747"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M10.667 13.867v0.747"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M22.613 13.867v0.747"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M19.627 25.813c-1.846 0-3.88 0.747-5.736 1.71-2.984 1.549-4.476 2.324-5.21 1.829-0.735-0.493-0.596-2.023-0.317-5.083l0.063-0.696"></path>
+</symbol>
+<symbol id="m" viewBox="0 0 42 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M5.88 6.65c0.049-0.485-0.14-0.97-0.502-1.299l-3.709-4.474v-0.666h11.53l8.915 19.548 7.837-19.548h10.995v0.666l-3.174 3.043c-0.272 0.206-0.411 0.551-0.354 0.888v22.368c-0.058 0.337 0.082 0.683 0.354 0.888l3.1 3.043v0.666h-15.6v-0.666l3.215-3.117c0.312-0.312 0.312-0.411 0.312-0.888v-18.076l-8.939 22.689h-1.209l-10.395-22.689v15.206c-0.090 0.642 0.123 1.283 0.576 1.744l4.178 5.066v0.666h-11.842v-0.658l4.178-5.074c0.444-0.461 0.65-1.11 0.535-1.744v-17.582z"></path>
+</symbol>
+<symbol id="telegram" viewBox="0 0 39 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M38.114 2.884l-5.633 26.567c-0.425 1.875-1.533 2.341-3.108 1.459l-8.584-6.325-4.141 3.984c-0.459 0.459-0.841 0.841-1.725 0.841l0.617-8.741 15.908-14.375c0.692-0.616-0.151-0.959-1.075-0.341l-19.667 12.384-8.467-2.651c-1.841-0.575-1.875-1.841 0.384-2.725l33.116-12.759c1.533-0.575 2.875 0.341 2.375 2.684v-0.001z"></path>
+</symbol>
+</defs>
+</svg>

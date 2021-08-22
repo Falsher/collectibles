@@ -1,0 +1,93 @@
+.universe{
+  background: url(./../images/universe/starsUn.png), $hero-color;
+  height: 808px;
+}
+.universe-block{
+  text-align: left;
+  position: relative;
+}
+.universe-block{
+  margin-left: 165px;
+  margin-right: 165px;
+  padding-top: 90px;
+
+  h2{
+    color: $white-color;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 133%;
+    margin-bottom: 13px;
+
+  }
+
+}
+.list-hexagon{
+position: absolute;
+top: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li{
+    width: calc((100% - 4 * 30px) / 4);
+    margin:15px;
+  }
+}
+.hexagon{
+position: relative;
+}
+
+.list-hexagon li{
+  margin-bottom: -55px;
+  p{
+  position: absolute;
+top: 90px;
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 157.5%;
+  padding-left: 25px;
+  padding-right: 10px;
+
+}}
+
+.list-hexagon li:nth-child(2) p{
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 165%;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.hexagon{
+  fill:  #2a5298
+}
+.list-hexagon li{
+  .hexagon:hover,
+.hexagon:focus{
+  fill: $white-color;
+  color: $hero-color;
+}
+}
+.vector{
+  fill:#2a529800
+}
+
+.list-hexagon-duplicat{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  li{
+
+    width: calc((100% - 4 * 30px) / 4);
+    margin:15px;
+    margin-bottom: -55px;
+  }
+}
+.hexagon-duplicat-block{
+  position:relative;
+
+left: 80px;
+  }

@@ -1,10 +1,17 @@
 
 @import './general/modern-normalize';
 @import './utilits/variables';
+@import './utilits/fonts';
 @import './general/common';
+@import './base/base';
 
 @import './components/header';
 @import './components/hero';
 @import './components/project';
 @import './components/number';
-@import './components/choose'
+@import './components/choose';
+@import './components/chooseTwo';
+@import './components/character';
+@import './components/universe';
+@import './components/touch';
+@import './components/footer';

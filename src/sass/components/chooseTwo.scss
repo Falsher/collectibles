@@ -9,6 +9,7 @@
 .choose-block{
   margin-top:75px;
 }
+
 .list-choose{
   display: flex;
 justify-content: space-around;
@@ -44,47 +45,55 @@ li>img:focus{
   padding-top: 33px;
 }
 input[class="btnLeft"] {
-  background: url('./../images/chooseOne/buttonLeft.png') no-repeat top;
+  background: url('./../images/chooseTwo/buttonLeft.png') no-repeat top;
   width: 21px;
   height: 28px;
   border: none;
   margin-top:28px;
 }
 input[class="btnRight"] {
-  background: url('./../images/chooseOne/buttonRight.png') no-repeat top;
+  background: url('./../images/chooseTwo/buttonRight.png') no-repeat top;
   width: 21px;
   height: 28px;
   border: none;
   margin-top: 28px;
 }
-.left-character{
-  margin-right: 229px;
-}
-.option-colection{
+
+.option-colectionTwo{
   display: flex;
-  background-image: url('./../images/chooseOne/bg.jpg') ;
+  padding-top: 27px;
+  padding-right: 290px;
+  padding-bottom: 20px;
+  padding-left: 260px;
+  background-image: url('./../images/chooseTwo/bg.jpg') ;
   background-repeat: no-repeat;
 }
-.circleChoose{
-  position:relative;
+.rigth-characterTwo{
 
-}
-.imgCircleChoose{
-  margin-top: 37px;
-  margin-left: 295px;
+margin-left:240px;
 
+  .circleChooseTwo{
+    position:relative;
+width: 290px;
+  }
+  .imgCircleChooseTwo{
+    margin-top: 0px;
+  }
+  .circleChooseTwo > .robotChooseTwo{
+    position: absolute;
+    top: 3%;
+    right:29%;
+  }
+  .robotChooseTwo{
+    height:356px
+  }
 }
-.circleChoose > .robotChoose{
-  position: absolute;
-  top: -13%;
-  left:59%;
 
-}
-.rigth-character{
+.left-characterTwo{
   width: 380px;
   height: 311px;
-  margin-top: 48px;
-margin-bottom: 57px;
+  margin-top: 46px;
+margin-bottom: 59px;
 h3{
   font-size: 24px;
   font-weight: 700;
@@ -106,7 +115,7 @@ p{
   color: #375D9F;
   margin-bottom: 30px;
 }
-.list-button{
+.listChooseTwo-button{
 
   margin-bottom: 57px;
   button{
@@ -114,8 +123,12 @@ p{
     height: 36px;
     background:linear-gradient(270deg, #BB52C9 0%, #35519C 100%);
     border-radius: 8px ;
-padding:0px 29px ;
- transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 133%;
+color: $white-color;
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 &:hover,
 &:focus{
    box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
